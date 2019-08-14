@@ -13,7 +13,11 @@ Gradle 4+.
 # How to start the service
 
 Download the code into your local.
+
 Build the code by executing the command gradlew build
+
 cd build\libs
+
 java -jar target-ss-notifications-1.0.0.jar
+
 -- Do ensure that no other service is running on port 8080.
